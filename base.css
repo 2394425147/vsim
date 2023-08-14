@@ -1,0 +1,64 @@
+/**
+ * @name vivid/stasis iM
+ * @description Based on vivid/stasis's in-game ui
+ * @author fumiko
+ * @authorId 348718434176991232
+ * @version 1
+ * @website https://github.com/2394425147
+ * @source https://github.com/2394425147/vsim/blob/main/base.css
+*/
+
+div[class^="message"] h3[class^="header"] {
+  display: flex;
+  gap: 16px;
+}
+
+div[class^="message"] > div[class^="contents"] {
+  background-color: black;
+  padding: 16px;
+  border: 3px solid white;
+}
+
+div[class^="message"] > div[class^="contents"] + div[class^="container"] {
+  background-color: black;
+  padding: 16px;
+  border-top: 0;
+}
+
+div[class^="message"] div[class^="contents"] * {
+  font-family: "Monocraft Nerd Font";
+  border-radius: 0;
+}
+
+div[class^="message"] > div[class^="container"] {
+  background-color: black;
+  padding: 16px;
+  border: 3px solid white;
+}
+
+div[class^="message"] div[class^="contents"] img[class^="avatar"] {
+  transform: translateY(-20.5px);
+  border-radius: 0;
+  border: 3px solid white;
+}
+
+div[class^="message"] div[class^="mediaAttachmentsContainer"] {
+  border-radius: 0;
+}
+
+div[class^="message"] div[class^="mediaAttachmentsContainer"] {
+  border-radius: 0;
+}
+
+div[class^="message"] div[class^="wrapper"] {
+  border-radius: 0;
+  background: 0;
+  border: 0;
+  padding: 0;
+  font-family: "Monocraft Nerd Font";
+}
+
+div[class^="buttonContainer"] {
+  margin-right: 48px;
+  margin-top: 32px;
+}
