@@ -8,6 +8,11 @@
  * @source https://github.com/2394425147/vsim/blob/main/base.css
 */
 
+div[class^="message"] * {
+  font-family: "Monocraft Nerd Font", "Fusion Pixel 12px Monospaced";
+  border-radius: 0;
+}
+
 div[class^="message"] h3[class^="header"] {
   display: flex;
   gap: 16px;
@@ -23,11 +28,6 @@ div[class^="message"] > div[class^="contents"] + div[class^="container"] {
   background-color: black;
   padding: 16px;
   border-top: 0;
-}
-
-div[class^="message"] div[class^="contents"] * {
-  font-family: "Monocraft Nerd Font";
-  border-radius: 0;
 }
 
 div[class^="message"] > div[class^="container"] {
@@ -55,10 +55,14 @@ div[class^="message"] div[class^="wrapper"] {
   background: 0;
   border: 0;
   padding: 0;
-  font-family: "Monocraft Nerd Font";
 }
 
 div[class^="buttonContainer"] {
   margin-right: 48px;
-  margin-top: 32px;
+  margin-top: 18px;
+}
+
+div[class^="buttonContainer"] div[class^="buttons"] {
+  background: black;
+  border: 3px solid white;
 }
